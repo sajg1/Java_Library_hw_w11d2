@@ -22,4 +22,8 @@ public class Library {
             this.shelf.add(book);
         }
     }
+
+    public Book removeBook() {
+        return this.shelf.remove(0);
+    }
 }
